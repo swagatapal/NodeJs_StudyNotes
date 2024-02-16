@@ -1,0 +1,36 @@
+Javascript is a single threaded language.
+
+Node js is an asynchronous even driven javascript run time.
+
+Asynchronous callback :: Callback allows us to say when you are done doing all of his work, call me back 
+and run my code , this call backs are executed when some event occurs and  set timeouts means just waiting
+for certaim amount of time.
+
+
+Non Blocking Input and output :: Node JS employs non-blocking I/O, where the execution of the program 
+continues without waiting for the I/O operation to finish.
+
+Is Javascript synchronous or asynchronous ?? 
+Js is a synchronous programming language but we can perform asynchronous operation in js using callback func.
+
+Is Node js multithereaded ??
+Node. js runs JavaScript code in a single thread, which means that your code can only do one task at a time. However, Node. js itself is multithreaded and provides hidden threads through the libuv library, which handles I/O operations like reading files from a disk or network requests.
+
+Event Loop ?? (https://nodejs.org/en/guides/event-loop-timers-and-nexttick) 
+Timers(SetTimeout, SetIntervals, SetImmediate) --> 
+I/O call backs --> setImmediate --> Close Callbacks
+The event loop is responsible for handle all those call back function. Those call back functions which allow nodes to execute code asynchronously.
+
+callBack queue : 
+Callback queue keeps track that which call backs are ready to be executed.
+
+How node js work :: Event Loop <--> Callback Queue <--> Node API
+
+Observer :: 
+
+Subscriber :: 
+
+Node Event emitter :: (https://nodejs.org/api/events.html#events_events)
+
+
+
