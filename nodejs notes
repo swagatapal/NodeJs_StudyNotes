@@ -33,4 +33,9 @@ Subscriber ::
 Node Event emitter :: (https://nodejs.org/api/events.html#events_events)
 
 
+HTTP Request Response :: https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+HTTP Request :: API(https://www.mulesoft.com/resources/api/what-is-an-api)
+HTTP Response :: https://www.udemy.com/course/complete-nodejs-developer-zero-to-mastery/learn/lecture/26001514#notes
 
+Origin :: https://developer.mozilla.org/en-US/docs/Glossary/Origin
+same origin policy :: https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy
